@@ -1,0 +1,45 @@
+services:
+  sw1:
+    image: lscr.io/linuxserver/openssh-server:latest
+    container_name: msw-sw1
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - PASSWORD_ACCESS=true
+      - SUDO_ACCESS=true
+      - USER_NAME=netops
+      - USER_PASSWORD=netops123
+    ports:
+      - "2221:2222"
+    restart: unless-stopped
+
+  sw2:
+    image: lscr.io/linuxserver/openssh-server:latest
+    container_name: msw-sw2
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - PASSWORD_ACCESS=true
+      - SUDO_ACCESS=true
+      - USER_NAME=netops
+      - USER_PASSWORD=netops123
+    ports:
+      - "2222:2222"
+    restart: unless-stopped
+
+  sw3:
+    image: lscr.io/linuxserver/openssh-server:latest
+    container_name: msw-sw3
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - PASSWORD_ACCESS=true
+      - SUDO_ACCESS=true
+      - USER_NAME=netops
+      - USER_PASSWORD=netops123
+    ports:
+      - "2223:2222"
+    restart: unless-stopped

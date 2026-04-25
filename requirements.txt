@@ -1,0 +1,3 @@
+netmiko
+rich
+pyreadline3; platform_system == "Windows"

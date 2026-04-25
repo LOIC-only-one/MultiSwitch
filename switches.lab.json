@@ -1,0 +1,32 @@
+[
+  {
+    "host": "127.0.0.1",
+    "username": "netops",
+    "password": "netops123",
+    "device_type": "linux",
+    "port": 2221,
+    "secret": "",
+    "alias": "sw1",
+    "tags": ["lab", "virtual"]
+  },
+  {
+    "host": "127.0.0.1",
+    "username": "netops",
+    "password": "netops123",
+    "device_type": "linux",
+    "port": 2222,
+    "secret": "",
+    "alias": "sw2",
+    "tags": ["lab", "virtual"]
+  },
+  {
+    "host": "127.0.0.1",
+    "username": "netops",
+    "password": "netops123",
+    "device_type": "linux",
+    "port": 2223,
+    "secret": "",
+    "alias": "sw3",
+    "tags": ["lab", "virtual"]
+  }
+]
