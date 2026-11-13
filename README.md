@@ -7,6 +7,9 @@
 ![Rich](https://img.shields.io/badge/UI-Rich-6A1B9A?style=flat-square)
 ![HPE Aruba](https://img.shields.io/badge/HPE_Aruba-provisioning-FF8300?style=flat-square&logo=hp&logoColor=white)
 ![Docker](https://img.shields.io/badge/Lab-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Statut](https://img.shields.io/badge/statut-v1%20·%20non%20maintenu-lightgrey?style=flat-square)
+
+> **Statut :** version 1 fonctionnelle, projet non poursuivi. Le code reste disponible tel quel ; il n'y a pas de développement en cours.
 
 Configurer dix switches un par un, c'est dix sessions SSH et dix fois les mêmes erreurs de frappe. MultiSwitch ouvre toutes les sessions en même temps, envoie la même commande (ou un script entier) à une sélection d'équipements et affiche les résultats côte à côte.
 
@@ -153,10 +156,6 @@ MultiSwitch/
 ├─ docker-compose.lab.yml      lab de switches virtuels
 └─ docs/                       architecture, profil Aruba, contribution
 ```
-
-## Contribuer
-
-Les règles du projet et la marche à suivre pour ajouter une fonctionnalité sont dans [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
 ---
 
